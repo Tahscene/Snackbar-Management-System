@@ -1,4 +1,4 @@
-<h1>🍔 Efficient Order Tracking with <strong>Snackbar Management System</strong> 🧾</h1>
+<h1> Efficient Order Tracking with <strong>Snackbar Management System</strong> 🍔</h1>
 <p>
   <strong>Snackbar Management System</strong> is a desktop-based POS (Point of Sale) application built using Python and Tkinter to manage snack bar operations like ordering, billing, and tracking daily sales.
 </p>
