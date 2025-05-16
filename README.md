@@ -1,17 +1,14 @@
-<h1> Efficient Order Tracking with <strong>Snackbar Management System</strong> 🍔</h1>
+<h1>Efficient Order Tracking with <strong>Snackbar Management System</strong> 🍔</h1>
 <p>
-  <strong>Snackbar Management System</strong> is a desktop-based POS (Point of Sale) application built using Python and Tkinter to manage snack bar operations like ordering, billing, and tracking daily sales.
+  <strong>Snackbar Management System</strong> is a desktop-based POS (Point of Sale) application built using <strong>JavaFX</strong> for the user interface and <strong>MySQL</strong> for backend data storage. It helps manage snack bar operations such as order processing, billing, and daily sales tracking with an intuitive UI.
 </p>
 
-<!-- Add your GitHub image link here -->
-<img src="https://github.com/Tahscene/Snackbar-Management-System/blob/main/images/snackbar-ui.png?raw=true"
-     alt="Snackbar UI"
-     width="250px"
-     style="border-radius: 8px; border: 1px solid #ccc; margin-top: 10px;" />
+<!-- GitHub image link -->
+
 
 <h2>📄 Project Overview</h2>
 <p>
-This system is designed for small snack shops and food counters to automate the manual ordering and billing process. It includes a GUI for item selection, real-time total calculation, and receipt generation. The project showcases beginner-to-intermediate Python GUI development and is ideal for personal use or academic demonstration.
+Designed for small snack shops and canteens, this system automates traditional order-taking and billing processes. The software includes a modern UI for selecting items, calculating totals in real time, storing data in a relational database, and printing receipts. It's a great project to showcase beginner-to-intermediate Java and database integration skills.
 </p>
 
 <h2>🚀 Getting Started</h2>
@@ -20,38 +17,47 @@ This system is designed for small snack shops and food counters to automate the 
   <li><strong>Clone the repository:</strong>
     <pre><code>git clone https://github.com/Tahscene/Snackbar-Management-System.git</code></pre>
   </li>
-  <li><strong>Navigate to the project folder:</strong>
-    <pre><code>cd Snackbar-Management-System</code></pre>
+  <li><strong>Open the project in an IDE:</strong> You can use <code>IntelliJ IDEA</code>, <code>NetBeans</code>, or <code>Eclipse</code>.</li>
+  <li><strong>Configure the database:</strong>
+    <ul>
+      <li>Install and run <code>MySQL Server</code>.</li>
+      <li>Create a database (e.g., <code>snackbar_db</code>).</li>
+      <li>Import the provided <code>snackbar.sql</code> file to create tables and sample data.</li>
+      <li>Update your DB credentials in the project’s database configuration file or DAO classes.</li>
+    </ul>
   </li>
-  <li><strong>Install required libraries (if any):</strong> Most are standard Python libraries.</li>
   <li><strong>Run the project:</strong>
-    <pre><code>python snackbar.py</code></pre>
+    <pre><code>Run the Main.java class to launch the application</code></pre>
   </li>
 </ol>
 
 <h3>🔧 Technologies Used</h3>
 <ul>
-  <li><strong>Python 3.x</strong></li>
-  <li><strong>Tkinter</strong> – GUI development</li>
-  <li><strong>Random</strong> – for order number generation</li>
-  <li><strong>Datetime</strong> – for date and time stamps</li>
+  <li><strong>Java 11+</strong> – core programming language</li>
+  <li><strong>JavaFX</strong> – GUI development</li>
+  <li><strong>MySQL</strong> – database management system</li>
+  <li><strong>JDBC</strong> – database connectivity</li>
 </ul>
 
 <h2>🎨 Features</h2>
 <ul>
-  <li>Simple and user-friendly GUI</li>
-  <li>Real-time bill calculation based on selected snacks</li>
-  <li>Receipt generation with unique order ID</li>
-  <li>Reset and Exit options</li>
-  <li>Date and time display</li>
+  <li>Modern and responsive GUI using JavaFX</li>
+  <li>Real-time bill calculation and item selection</li>
+  <li>Receipt generation with unique order IDs</li>
+  <li>Sales data stored and managed in MySQL</li>
+  <li>Reset and Exit functionalities</li>
+  <li>Date and time stamps for each order</li>
 </ul>
 
 <h2>🍟 Ideal For</h2>
 <ul>
-  <li>Snack shops, small cafés, or school canteens</li>
-  <li>Students learning Python GUI development</li>
-  <li>Mini-projects for academic purposes</li>
+  <li>Snack shops, school/college canteens, and small cafés</li>
+  <li>Students learning Java and database integration</li>
+  <li>Mini-projects and academic demonstrations</li>
 </ul>
 
 <h2>🤝 Contributions</h2>
-<p>Suggestions, improvements, and bug fixes are welcome! Feel free to fork, clone, and contribute to the project through pull requests.</p>
+<p>Contributions are always welcome! Feel free to fork, clone, and submit pull requests for new features, bug fixes, or enhancements.</p>
+
+
+
